@@ -1,0 +1,57 @@
+@media print{
+
+    @page { 
+        margin: 10px; 
+    }
+
+    .right{
+        height: auto;
+        zoom: 85%;
+    }
+
+    .left{
+        height: auto;
+        overflow-y: hidden;
+        zoom: 83%;
+        -webkit-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+        -ms-print-color-adjust: exact;
+    }
+
+    .table{
+        display: inline-block;
+    }
+
+    ul{
+        margin: 0px;
+        padding: 3px, auto;
+    }
+
+    h3{
+        margin: 7px;
+        font-size: 15px;
+    }
+
+    img {
+        display: block;
+        width: 15%;
+        padding: 4px;
+    }
+
+    #accordion label {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        letter-spacing: .1em; 
+    }
+
+    #accordion article {
+        overflow:visible;
+        display: inline-block;
+        height: auto;
+    }
+
+    /*DISABLED CSS*/
+    .btn-downloadPdf, .btn-downloadPdf:hover{
+        display: none !important;
+    }
+}
