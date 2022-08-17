@@ -45,8 +45,8 @@ html * {
       clear: both;
     }
   
-  .sub-header-orange {
-      color: #ff3e1b; 
+  .sub-header {
+      color: #444; 
       letter-spacing: .3em; 
       font-weight: 600;
   }
