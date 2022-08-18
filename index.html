@@ -148,8 +148,23 @@
                 </h3>
             </p>
         </div>
+        <hr>
+        <!-- DOWNLOAD PDF BUTTON -->
+        <br>
+        <a onclick="downloadPdf()" class="btn-downloadPdf">Download PDF</a>
     </div>
 </div>
 </body>
 </html>
 
+<!-- PRINT PAGE FOR "DOWNLOAD PDF" BUTTON -->
+<script>
+    function downloadPdf() {
+        var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1 && !(navigator.userAgent.indexOf("Edg") != -1)
+        if(!is_chrome){
+            alert('If you have trouble viewing or printing this page, please consider using Chrome instead.');
+        }
+
+        window.print();
+    }
+</script>
