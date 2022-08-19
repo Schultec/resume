@@ -37,19 +37,6 @@
         width: 15%;
         padding: 4px;
     }
-
-    #accordion label {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        letter-spacing: .1em; 
-    }
-
-    #accordion article {
-        overflow:visible;
-        display: inline-block;
-        height: auto;
-    }
-
     /*DISABLED CSS*/
     .btn-downloadPdf, .btn-downloadPdf:hover{
         display: none !important;
